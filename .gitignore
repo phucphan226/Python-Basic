@@ -1,0 +1,28 @@
+# VS Code và extension CPH
+.vscode/
+.cph/
+
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Cache của Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Công cụ kiểm tra, test
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Biến môi trường, khóa bí mật
+.env
+
+# Rác hệ điều hành
+.DS_Store
+Thumbs.db

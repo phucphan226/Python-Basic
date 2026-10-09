@@ -1,0 +1,6 @@
+s=input()
+t=s.split()
+b=list(set(t))
+b.sort(key=lambda x: (len(x), x))
+b=' '.join(b)
+print(b)
